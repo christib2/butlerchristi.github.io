@@ -1,8 +1,9 @@
 body {
-    background: rgb(125, 198, 205);
+    background: black;
     color: white;
     padding: 10px;
-    font-family: arial;
+    font-family: cursive;
+    text-decoration: line-through;
 }
 #all-contents {
   max-width: 800px;
@@ -11,11 +12,15 @@ body {
 
 /* navigation menu */
 nav {
-    background: silver;
+    background: black;
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border-style: double;
+    border-color: white;
+    text-decoration: line-through;
+    font-family: cursive;
 }
 h1 {
     display: flex;
@@ -23,6 +28,8 @@ h1 {
     color: white;
     flex: 1;
     margin: 0;
+    text-decoration: line-through;
+    font-family: cursive;
 }
 #nav-ul {
     list-style-image: none;
@@ -30,15 +37,18 @@ h1 {
 .nav-li {
     display: inline-block;
     padding: 0 10px;
+    text-decoration: line-through;
+    font-family: cursive;
 }
 a {
-    text-decoration: none;
+    text-decoration: line-through;
     color: white;
+    font-family: cursive;
 }
 
 /* main container area beneath menu */
 main {
-    background: silver;
+    background: black;
     display: flex;
 }
 .sidebar {
@@ -55,7 +65,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px black;
     padding: 8px;
 }
 h2, h3 {
@@ -72,17 +82,22 @@ h2, h3 {
 }
 
 #portfolio li {
-    background: #fff;
+    background: black;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-    background: rgb(125, 198, 205);
+    background: black;
 }
 
 #portfolio a {
-    text-decoration: none;
-    color: silver;
+    text-decoration: line-through;
+    color: white;
+}
+
+div{
+    border-style: dotted;
+
 }
